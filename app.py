@@ -9,7 +9,7 @@ import streamlit as st
 # PAGE CONFIGURATION
 # ==========================================
 st.set_page_config(
-    page_title="AI Employee Salary Predictor",
+    page_title="Employee Salary Predictor",
     page_icon="💼",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -177,7 +177,7 @@ def main():
         
         st.subheader("📌 Project Info")
         st.write("""
-        **AI Employee Salary Predictor** predicts industry-aligned salaries based on worker demographics, role, education, and career experience.
+        **Employee Salary Predictor** predicts industry-aligned salaries based on worker demographics, role, education, and career experience.
         """)
         
         st.markdown("---")
@@ -203,7 +203,7 @@ def main():
     # --------------------------------------
     st.markdown("""
     <div class="header-box">
-        <h1>💼 AI Employee Salary Predictor</h1>
+        <h1>💼 Employee Salary Predictor</h1>
         <p>Machine Learning Based Salary Estimation System</p>
     </div>
     """, unsafe_allow_html=True)
